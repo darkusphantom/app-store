@@ -1,0 +1,28 @@
+<section class="guest-form modal">
+  <form class="container__modal container__form">
+    <div class="input">
+      <input
+        type="text"
+        id="firstName"
+        name="firstName"
+        placeholder="Your first name..."
+        [formControl]="firstName"
+      />
+    </div>
+    <div class="input">
+      <input
+        type="text"
+        id="lastName"
+        name="lastName"
+        placeholder="Your last name..."
+        [formControl]="lastName"
+      />
+    </div>
+    <div class="container__btn">
+      <button class="btn btn--cancel">Cancel</button>
+      <button class="btn btn--add" type="button" (click)="addGuest()">
+        Add Guest
+      </button>
+    </div>
+  </form>
+</section>

@@ -1,0 +1,17 @@
+<section class="guests">
+  <div class="guests__card">
+    <app-card
+    [guest]="guest"
+    *ngFor="let guest of guests"
+    ></app-card>
+  </div>
+  <div class="container__button">
+    <i class="icon icon-user-plus"></i>
+    <button class="btn add--guest">Add Guest</button>
+  </div>
+  <app-guest-form
+    [guests]="guests"
+    [guest]="newGuest"
+    (addNewGuest)="addGuest($event)"
+  ></app-guest-form>
+</section>

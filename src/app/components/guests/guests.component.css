@@ -1,0 +1,19 @@
+.guests {
+  width: 80%;
+  height: 75vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.guests .container__button {
+  align-self: flex-end;
+}
+
+.add--guest {
+  color: var(--color-blue);
+  margin: 10px 0;
+}

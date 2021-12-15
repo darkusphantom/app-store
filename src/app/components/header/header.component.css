@@ -1,0 +1,12 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    box-shadow: 0 0 3px #000;
+}
+
+.header .logo {
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+}
